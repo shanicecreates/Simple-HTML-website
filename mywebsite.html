@@ -10,16 +10,16 @@
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0'); /* Sky background */
-            background-size: cover;
-            background-position: center;
-            color: yellow;
+            background-color: #333; /* Solid background color */
+            color: tan; /* Tan text color */
         }
         .container {
-            max-width: 800px;
-            margin: 150px auto; /* Adjusted margin to bring the content down */
+            max-width: 1000px; /* Adjusted max-width for better fit */
+            margin: 100px auto; /* Adjusted margin for better positioning */
             padding: 20px;
             text-align: center;
+            border: 2px solid tan; /* Added border around the container */
+            border-radius: 10px; /* Added border radius for rounded corners */
         }
         h1, h3 {
             margin-top: 20px; /* Added some margin at the top of headings */
@@ -34,26 +34,33 @@
         }
         li {
             font-family: Impact, sans-serif; /* Changed font for list items */
+            font-size: 24px; /* Increased font size of list items */
+            list-style-type: none; /* Removed bullet points */
+            margin-bottom: 10px; /* Added some margin between list items */
+        }
+        a {
+            color: tan; /* Changed color of all links to tan */
+            text-decoration: none; /* Remove underline from links */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Hi 👋, I'm Shanice</h1>
-        <h3>A Devoted Software Design and Development Student from University of Connecticut</h3>
-        <ul>
+        <h1 style="font-size: 48px;">Hi 👋, I'm Shanice</h1>
+        <h3 style="font-size: 36px;">A Devoted Software Design and Development Student from University of Connecticut</h3>
+        <ul style="padding-left: 0;"> <!-- Removed bullet points -->
             <li>🌱 I’m currently learning <strong>Principles of Databases, Operating Systems and SQL</strong></li>
             <li>💬 Ask me about <strong>Anything</strong></li>
             <li>📫 How to reach me <a href="mailto:shanice.martin@uconn.edu">shanice.martin@uconn.edu</a></li>
             <li>📄 Learn about my experiences <a href="https://www.linkedin.com/in/shanicemartin/">LinkedIn</a></li>
             <li>👩🏾‍💻🏀🎥 Fun fact <strong>I Love Learning New Technologies, Sports and Video Editing</strong></li>
         </ul>
-        <h3>Connect with me:</h3>
+        <h3 style="font-size: 36px;">Connect with me:</h3>
         <div class="social-icons">
             <a href="https://www.linkedin.com/in/shanicemartin" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="shanice martin" height="30" width="40" /></a>
             <a href="https://www.instagram.com/no.limitt.s/" target="_blank"><img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="no.limitt.s" height="30" width="40" /></a>
         </div>
-        <h3>Languages and Tools:</h3>
+        <h3 style="font-size: 36px;">Languages and Tools:</h3>
         <p>
             <img src="https://www.vectorlogo.zone/logos/adobe_illustrator/adobe_illustrator-icon.svg" alt="illustrator" width="40" height="40"/>
             <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="matlab" width="40" height="40"/>
